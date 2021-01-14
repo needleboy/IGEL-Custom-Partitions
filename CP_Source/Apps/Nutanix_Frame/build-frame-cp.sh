@@ -31,6 +31,7 @@ unzip Nutanix_Frame.zip -d custom
 mkdir -p custom/frame/usr/share/pixmaps
 mv custom/target/Frame.png custom/frame/usr/share/pixmaps
 mv custom/target/frame-cp-init-script.sh custom
+mv custom/target/frame-launcher.sh custom
 
 cd custom
 
